@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, 
+    #add8e6 10%,
+    #00008b 50%,
+    #df2f2f 80%
+    );
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+    background-image: url(mperf2.jpg);
+    background-repeat: no-repeat;
+    background-position: 40%;
+}
+
+.logo img {
+    width: 30px;
+    border-radius: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 150px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background: linear-gradient(to bottom right, 
+    #add8e6 10%,
+    #00008b 50%,
+    #df2f2f 80%
+    );
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s;
+    cursor:grab;
+}
+
+.btn:hover{
+    transform: scale(1.3);
+}
+
+.model-detail {
+    padding: 50px 20px;
+}
+
+.model {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.model img {
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.model-info {
+    max-width: 600px;
+}
+
+.model-info h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.model-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.about p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.about-item {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    margin: 20px;
+    text-align: left;
+    border: 2px black solid;
+    padding: 20px;
+}
+.gradient {
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(to bottom right, 
+        #68c8e8 10%,
+        #00008b 50%,
+        #ff0000 70%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about-item h2 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+.about-item p {
+    margin-bottom: 20px;
+}
+
+.store {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.store h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.store p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.store-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.store-item {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.store-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.store-item h2 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+.store-item p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+form {
+    width: 400px;
+    margin: 20px;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form .btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+}
+
+.contact-info {
+    width: 300px;
+    margin: 20px;
+    text-align: left;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.store-item .btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: auto;
+    position: relative;
+    width: auto;
+}
